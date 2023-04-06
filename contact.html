@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>contact</title>
+    <link
+      rel="stylesheet"
+      href="/bootstrap-5.3.0-alpha1-dist/css/bootstrap.css"
+    />
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      * {
+        box-sizing: border-box;
+      }
+
+      input[type="text"],
+      select,
+      textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+
+      input[type="submit"] {
+        background-color: #20c23b;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #072bca;
+      }
+
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!--------------------------------------------->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="home.html"><b>HUMANOID ROBOT</b> </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="project.html"
+                >Project</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/project_ppt/contact.html">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                More
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="introduction.html"
+                    >Introduction</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="powerpoint.html">PowerPoint</a>
+                </li>
+
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home.html"
+                >Back</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!------------------------------------------------>
+    <br />
+
+    <div class="container">
+      <label for="fname">Full Name</label>
+      <input type="text" id="fname" name="fullname" placeholder="Your name.." />
+
+      <label for="lname">Email</label>
+      <input
+        type="text"
+        id="emid"
+        name="emailid"
+        placeholder="Your email id.."
+      />
+
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">India</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+
+      <label for="subject">Subject</label>
+      <textarea
+        id="subject"
+        name="subject"
+        placeholder="Write something.."
+        style="height: 200px"
+      ></textarea>
+
+      <a href="sumittsucess.html"><input type="submit" value="Submit" /></a>
+    </div>
+
+    <!------------------------------------------------------------------------>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/bootstrap-5.3.0-alpha1-dist/js/bootstrap.js"></script>
+  </body>
+</html>
