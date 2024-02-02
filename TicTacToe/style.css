@@ -1,0 +1,56 @@
+
+body{
+    background-color: black;
+}
+table,tr,th{
+    border: 2px solid rgb(250, 250, 250);
+    width: 400px;
+    height: 100px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+div{
+    align-items: center;
+    align-content: space-between;
+}
+.name{
+    color: antiquewhite;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+h1{
+    color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+.clickable {
+    cursor: pointer; 
+}
+
+.clickable.clicked {
+    color: rgb(255, 0, 0); 
+}
+
+h2{
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+}
+.btn{
+    text-align: center;
+}
+.nametext{
+    color: white;
+}
+th{
+    color: white;
+    size: 100px;
+}
+
+
